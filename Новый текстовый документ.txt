@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
@@ -131,7 +131,7 @@ namespace sort
                     
                     if (menu == 1)
                     {
-                        Console.Write("Введите количество элементов:");  
+                        Console.Write("Введите количество элементов:");
                         int N = Convert.ToInt32(Console.ReadLine());
                         int[] Array = new int[N];
                         int[] Array1 = new int[N];
